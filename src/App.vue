@@ -10,6 +10,11 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data(){
+    return {
+      age:30//测试devtools
+    }
   }
 }
 </script>
